@@ -1,6 +1,6 @@
 body {
     font-size: 100%;
-    font-family: "Nunito Sans";
+    font-family: "Poppins", sans-serif;
     letter-spacing: 0.10em;
     background-color: #ffffff;
 }
@@ -40,5 +40,18 @@ button {
     background-color: #ffffff;
 }
 h1 {
+    text-align: center;
+}
+.product {
+    float: left;
+    max-width: 340px;
+    margin: 5px;
+}
+.product>img {
+    width: 340px;
+    height: 270px;
+}
+.product>a {
+    text-decoration: none;
     text-align: center;
 }
